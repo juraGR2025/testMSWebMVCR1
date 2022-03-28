@@ -1,20 +1,35 @@
-using System.Reflection;
+﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("UnitTestProject1")]
+// Управление общими сведениями о сборке осуществляется с помощью 
+// набора атрибутов. Измените значения этих атрибутов для изменения сведений,
+// связанных с этой сборкой.
+[assembly: AssemblyTitle("WebMVCR1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("UnitTestProject1")]
+[assembly: AssemblyProduct("WebMVCR1")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
+// Установка значения false в параметре ComVisible делает типы в этой сборке невидимыми 
+// для компонентов COM. Если требуется обратиться к типу в этой сборке через 
+// COM, задайте атрибуту ComVisible значение true для требуемого типа.
 [assembly: ComVisible(false)]
 
-[assembly: Guid("58d618d4-20f2-49e8-9926-3e7de34739e7")]
+// Следующий GUID служит для ID библиотеки типов typelib, если этот проект видим для COM
+[assembly: Guid("9256ad9d-a979-43a6-bc13-d09717e3c1a9")]
 
-// [assembly: AssemblyVersion("1.0.*")]
+// Сведения о версии сборки состоят из указанных ниже четырех значений:
+//
+//      основной номер версии;
+//      Дополнительный номер версии 
+//      номер сборки;
+//      редакция.
+//
+// Можно задать все значения или принять номер сборки и номер редакции по умолчанию, 
+// используя "*", как показано ниже:
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
